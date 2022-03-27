@@ -5,35 +5,42 @@
     <!-- Judyta Patoka -->
     <title>Studio</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <!-- upper bar -->
         <nav>
             <a href="#">WebStudio</a>
-            <ul>
+            <ul class="navigation-list">
                 <li>
                     <a href="#">Agencja</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="portfolio.html">Portfolio</a>
                 </li>
                 <li>
                     <a href="#">Kontakt</a>
                 </li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="e-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="phone" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-        <section>
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1><br>
-            <input type="button" value="Zamów usługę">
+        <section class="box">
+            <div class="upper-section">
+                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1><br>
+                <input class="button-order" type="button" value="Zamów usługę">
+            </div>
         </section>
         <section>
-            <ul>
+            <ul class="descriptions">
                 <li>
                     <h4>
                         LOREM IPSUM
@@ -90,7 +97,7 @@
         </section>
         <section>
             <h2>Nasz zespół</h2>
-            <ul>
+            <ul class="team-description">
                 <li>
                     <img src="images/p1.jpg"
                         alt="Uśmiechnięty mężczyzna, brunet z brodą i w okularach; ubrany w ciemną koszulę." width="270"
@@ -125,8 +132,8 @@
         <address>
             m. Warszawa, Aleje Jerozolimskie 21
         </address>
-        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+        <p><a class="e-mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+        <p><a class="phone-footer" href="tel:+48111111111">+48 111 111 111</a></p>
     </footer>
 </body>
 

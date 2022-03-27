@@ -1,0 +1,140 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --bright-background-color: #E5E5E5;
+  --dark-background-color: #2F303A;
+  --button-color: #F5F4FA;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color)
+}
+
+/* ul {
+  list-style-type: none;
+} */
+
+/* ====== header ====== */
+
+.navigation-list a {
+    font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.e-mail,
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navigation-list a:hover,
+.navigation-list a:focus,
+.e-mail:hover,
+.e-mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--main-color);
+}
+
+/* ====== end header ====== */
+
+/* ===== main ===== */
+
+.box {
+  background-color: var(--dark-background-color);
+  padding: 200px 452px 200px 452px;
+}
+
+.box h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-order,
+.button-portfolio {
+  cursor: pointer;
+}
+
+.button-order {
+  color: #ffffff;
+  background-color: var(--main-color);
+}
+
+.button-portfolio {
+  background-color: var(--button-color);
+}
+
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: var(--main-color);
+}
+
+.descriptions h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.descriptions p {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.team-description h5,
+.portfolio-description h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.team-description p,
+.portfolio-description p {
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ===== end main ===== */
+
+/* ===== footer ===== */
+
+.address,
+.e-mail-footer,
+.phone-footer {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+  text-decoration: none;
+}
+
+.e-mail-footer,
+.phone-footer {
+  opacity: 0.6;
+}
+
+/* ===== end footer ===== */
