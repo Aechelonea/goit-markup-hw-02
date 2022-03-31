@@ -120,7 +120,7 @@ body {
 }
 
 .team-description p {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
@@ -159,6 +159,13 @@ body {
 .e-mail-footer,
 .phone-footer {
   opacity: 0.6;
+}
+
+.e-mail:hover,
+.e-mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--main-color);
 }
 
 /* ===== end footer ===== */
