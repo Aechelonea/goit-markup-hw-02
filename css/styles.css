@@ -161,10 +161,10 @@ body {
   opacity: 0.6;
 }
 
-.e-mail:hover,
-.e-mail:focus,
-.phone:hover,
-.phone:focus {
+.e-mail-footer:hover,
+.e-mail-footer:focus,
+.phone-footer:hover,
+.phone-footer:focus {
   color: var(--main-color);
 }
 
